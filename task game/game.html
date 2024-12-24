@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<style>
+.nav{
+  background-color: aquamarine;
+}
+
+.img{background-image: url(Exer-01\ img\ Music.png);
+text-align: center;
+align-items: center;
+align-content: center;
+height: 30rem;
+background-color: #0a0a43;
+ color: aliceblue;
+ top: 0;
+}
+.game{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    
+ }
+.nummber{
+   display: flex;
+   flex-direction: row;
+   gap:3rem;
+   margin: 2rem;
+font-size:xx-large ;
+ margin-top: 0rem;
+}
+
+.nummber div{
+    display: flex;
+    flex-direction: column;
+
+}
+.game2{
+    display: flex;
+    background-color: hsl(247, 59%, 6%);
+    width: 100%;
+    height: 30vh;
+    margin-top: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.g2right{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: rgb(234, 238, 242);
+    font-size: 1rem;
+    font-style: normal;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.img3{
+ 
+    width: 170px;
+    height: 115px;
+   }
+   .button1{
+    width: 150px;
+    height: 50px;
+    }
+   
+    .cards-contrnire{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    gap: 10px;
+   }
+
+
+
+
+
+    .card-image  {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px ;
+  background-color: #fff;
+  
+  
+}
+
+
+
+
+.card-content {
+  padding: 20px;
+  text-align: center;}
+
+
+  .title{
+    display: flex;
+    color: white;
+    background-color: orange;
+    width: 100%;
+    height: 6vh;
+    margin-top: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;}
+
+.image{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 10px;
+}
+.tag{
+            width: 100%;
+            text-align: center;
+        }
+        .btnP{
+            display: block;
+            width: 100%;
+            margin: 5rem 0;
+            text-align: center;
+        }
+        .button{
+            background-color: purple;
+            font-size: 1rem;
+            line-height: 1;
+            text-decoration:none}
+            .link{
+              background-color: #fff;
+              color: purple;
+              text-decoration: underline;
+            }
+    .footer123{
+      width: 100%;
+      height: 170px;
+      padding: 20px;
+      overflow: hidden;
+      background-color: black;
+      box-sizing: border-box;
+      color: #fff;
+    }
+
+
+
+
+
+
+  
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+     <nav class="navbar navbar-expand-lg bg-body-tertiary " style="height": 2.5rem;>
+        <div class="container-fluid" style="background-color": #0093A4 ; >
+          <a class="navbar-brand" href="#"><img src="game.png" style="width": 2rem; ></a>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#" style="color": white;>Learn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"  style="color": white ;>Teach</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"  style="color": white;>District</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"  style="color": white;>Stats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"  style="color": white;>Help Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"  style="color": white;>Incubator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"  style="colo"r: white;>About</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex gap-2" role="search">
+                <div class="dropdown">
+                    <a class="btn dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: white solid; color: white;">
+                      New Project
+                    </a>
+                  
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn active" role="button" data-bs-toggle="button" aria-pressed="true" style="border: white solid;color: white;">Sign in</a>
+
+                  <a href="#" class="btn active" role="button" data-bs-toggle="button" aria-pressed="true" style="background-color: white;color: #0093A4;">Creat account</a>
+                  <a style="margin-top: .09rem;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16" style="background-color: white;">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+                  </svg></a>
+                </form>
+        </form>
+    </div>
+    
+  </div>
+</nav>
+<div class="img">
+    <h5>The Hour of Code is here!</h5><br>
+<h1>Music Lab: Jam Session</h1><br>
+<p> Learn to code as you remix your favorite artists' tracks and use AI to generate your own beats!<br><br> <button style="background-color: aliceblue;  width: 8rem; height: 3rem;    " >Try activity </button>
+    <button style="background: none"; width: 8rem; height: 3rem;  border-bottom: ridge   >Learn more </button>
+</p>
+<p style="color: white;" >In partnership with Amazon Future Enginee </p>
+</div>
+<div class="game">
+    <div><p>    Every student in every school should have the opportunity to learn computer science</p></div>
+ </div>
+  
+ <div class="nummber">
+    <div class="num"><a style="font-size: 5rem; margin :0;"> 92m </a> <a style="font-size:1rem;  margin: 0;"> students on code. jordan </a></div> 
+   <div class="num"><a style="font-size: 5rem; margin: 0"> 39M </a> <a style="font-size:1rem;"> of our students are young women </a></div> 
+   <div class="num"><a style="font-size: 5rem; margin: 0"> 330M </a> <a style="font-size:1rem;"> project created on code. org </a></div> 
+   <div class="num"><a style="font-size: 5rem;margin: 0 "> 2.7M </a> <a style="font-size:1rem;"> teacher use code.org </a></div> 
+   <div class="num"><a style="font-size: 5rem; margin: 0 "> 2.7M </a> <a style="font-size:1rem;"> teacher use code.org </a></div> 
+   <div class="num"><a style="font-size: 5rem; margin: 0"> 50M </a> <a style="font-size:1rem;">  All 50 states supourt science </a> </div> 
+ </div>
+ <div class="game2">
+    
+<div class="left">
+    <div class="  g2right"><h4> Exploring Generative AI </h4>
+        <p>  Empower students with hands-on projects and ethical insights into generative A</p>
+        <p>  Empower students with hands-on projects and ethical insights into generative A</p>
+
+    </div>
+    <img class="img3" src="imo.png" alt=" imogo ">
+<button class="button1" > Learn more </button>
+</div>
+</div>
+<div class="cards-contrnire" >
+  <div class="card-image"  >
+  <img src="4.png" alt="Hour of Code Image" class="card1-image">
+  <div class="card-content" style="background-color: aqua;"           >
+      <h2>Hour of Code</h2>
+      <p>Explore, play, and create!</p>
+      <ul>
+      <li><a href="#">Try the Hour of Code</a></li>
+      <li><a href="#">About the Hour of Code</a></li>
+      <li><a href="#">Host an Hour of Code</a></li>
+      </ul>
+  </div>
+  </div>
+
+
+
+<div class="card">
+<img src="3.png" alt="Hour of Code Image" class="card1-image">
+<div class="card-content" style=" background-color: plum;"      >
+  
+ <div> <h2>Student</h2>  <p> Explore our courses</p></div>
+ 
+  <ul>
+    <li><a href="#"> Elementary School</a></li>
+    <li><a  href="#">Middle school</a></li>
+    <li><a href="#">Middle school</a></li>
+  </ul>
+</div>
+</div>
+
+
+
+
+<div class="card">
+<img src="2.png" alt="Hour of Code Image" class="card3-image">
+<div class="card-content" style="background-color: 
+rgb(167, 224, 252);"   >
+  <h2>Teach your students</h2>
+  <p>   Educators</p>
+
+  <ul>
+    <li><a href="#">Elementary school</a></li>
+    <li><a href="#">Middle school</a></li>
+    <li><a href="#">High school</a></li>
+  </ul>
+</div>
+</div>
+
+
+
+<div class="card">
+<img src="1.png" alt="Hour of Code Image" class="card4-image">
+<div class="card-content" style="background-color: rgb(86, 155, 86);"      >
+  <h2>Get involved </h2>
+  <p>  Support diversity in computing </p>
+  <ul>
+    <li><a href="#">See the stats</a></li>
+    <li><a href="#">Bring CS to your school</a></li>
+    <li><a href="#">Donate</a></li>
+  </ul>
+</div>
+</div>
+</div> 
+
+<div  class="title">
+  <h5>Over 330 million Code.org projects created    </h5>
+ 
+</div>
+
+<div class="image">
+<div class="row">
+  <img src="f1.png" alt=" imagef1"    width="20px" >
+</div>
+<div class="row">
+  <img src="f2.png" alt=" imagef1"    width="20px" >
+</div>
+<div class="row">
+  <img src="f3.png" alt=" imagef1"    width="20px" >
+</div>
+<div class="row">
+  <img src="f5.png" alt=" imagef1"    width="20px" >
+</div>
+<div class="row">
+  <img src="f6.png" alt=" imagef1"    width="20px" >
+</div>
+<div class="row">
+  <img src="f7.png" alt=" imagef1"    width="20px" >
+</div>
+<div class="row">
+  <img src="f7.png" alt=" imagef1"    width="20px" >
+</div>
+<div class="row">
+  <img src="f3.png" alt=" imagef1"    width="20px" >
+</div>
+<div class="row">
+  <img src="f2.png" alt=" imagef1"    width="20px" >
+</div>
+<div class="row">
+  <img src="f5.png" alt=" imagef1"    width="20px" >
+ </div>
+ <div class="row">
+  <img src="f5.png" alt=" imagef1"    width="20px" >
+</div>
+<div class="row">
+  <img src="f2.png" alt=" imagef1"    width="20px" >
+</div>
+
+</div>
+
+<div class="tag" >
+  <h3> Code.org thanks</h3>
+ <p>Amazon • The Ballmer Group • Coinbase • Google.org • Charlie Lee • Microsoft • Spiegel Family Fund • Vista Equity Partners </p>
+  
+ <div class="btnp" >
+   <button class="button"  > Donate </button> 
+  </div>
+  <div class="link" >
+    <p><a>  See more supporters</a> </p>
+  </div>
+  <div class="footer123" >
+<footer id="page footer">
+<div class="contant" >
+<div class="left"  style="float": left   max-width: 80%;  >
+ <p> "© Code.org, 2024. Code.org®, the CODE logo, Hour of Code® and CS Discoveries® are trademarks of Code.org."
+  Built on GitHub from Microsoft   </p>
+
+
+
+</div>
+
+</div>
+
+
+</footer>
+
+
+  </div>
+
+ 
+</div>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
